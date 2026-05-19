@@ -38,8 +38,8 @@
     }
 
     * {
-      margin: unset;
-      padding: unset;
+      margin: 0;
+      padding: 0;
       box-sizing: border-box;
     }
 
@@ -85,6 +85,7 @@
       gap: var(--spacing-300);
       box-shadow: 8px 8px 0 0 #000;
       cursor: pointer;
+      border: 1px solid var(--gray-950);
     }
 
     .blog-card__content {
@@ -135,7 +136,10 @@
     }
 
     .blog-card:hover .blog-card__title {
-      color: var(--color-yellow) !important;
+      color: var(--color-yellow);
+    }
+    .blog-card:focus .blog-card__title {
+      color: var(--color-yellow);
     }
 
     .tag {
@@ -157,7 +161,7 @@
 <body>
 
   <main>
-    <div class="blog-card">
+    <div class="blog-card" tabindex="0">
       <img src="./assets/images/illustration-article.svg" alt="Blog Article Image">
       <div class="blog-card__content">
         <div class="tag">Learning</div>
