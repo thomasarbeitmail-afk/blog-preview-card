@@ -22,7 +22,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: [https://qr-code-component-topaz-two.vercel.app/](https://qr-code-component-topaz-two.vercel.app/)
+- Solution URL: [https://blog-preview-card-pink-nu.vercel.app/](https://blog-preview-card-pink-nu.vercel.app/)
 
 ## My process
 
